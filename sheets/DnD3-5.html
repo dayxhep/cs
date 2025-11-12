@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiche Personnage</title>
+    <title>Fiche de Personnage</title>
+    <!-- Dev only -->
+    <!-- <link rel="stylesheet" href="../themes/DnD3-5.css"> -->
   </head>
   <body>
-    <h1>Fiche Personnage</h1>
+    <h1>Fiche de Personnage</h1>
     <p>Ceci est un document HTML d'exemple.</p>
     <input type="text" name="sampleInput" id="sampleInput" placeholder="Tapez quelque chose...">
-    <script>(s=>fetch("https://cdn.jsdelivr.net/gh/dayxhep/cs/fa.min.js").then(r=>r.text()).then(t=>{s.text=t;Function(t)()}))(document.currentScript)</script>
+    
+    <!-- Ressources -->
+    <csres data-type="css" data-url="https://cdn.jsdelivr.net/gh/dayxhep/cs/themes/DnD3-5.css"></csres>
+    <csres data-type="js" data-url="https://cdn.jsdelivr.net/gh/dayxhep/cs/fa.min.js"></csres>
+    <script>(s=>fetch("https://cdn.jsdelivr.net/gh/dayxhep/cs/load.min.js").then(r=>r.text()).then(t=>{s.text=t;Function(t)()}))(document.currentScript)</script>
   </body>
 </html>
