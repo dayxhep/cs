@@ -5,16 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiche de Personnage</title>
     <!-- Dev only -->
-    <!-- <link rel="stylesheet" href="../themes/DnD3-5.css"> -->
+    <link rel="stylesheet" href="../themes/DnD3-5.css">
   </head>
   <body>
-    <h1>Fiche de Personnage</h1>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12">
+          <header class="text-center my-4">
+            <div class="img-header"></div>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="level-container">
+          <span>Lvl:</span>
+          <input type="number" padding="1" min="1" placeholder="1"/>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-3xl font-bold underline">Fiche de Personnage</h1>
     <p>Ceci est un document HTML d'exemple.</p>
     <input type="text" name="sampleInput" id="sampleInput" placeholder="Tapez quelque chose...">
     
     <!-- Ressources -->
-    <csres data-type="css" data-url="https://cdn.jsdelivr.net/gh/dayxhep/cs/themes/DnD3-5.css"></csres>
+    <!-- <csres data-type="css" data-url="https://cdn.jsdelivr.net/gh/dayxhep/cs/themes/DnD3-5.css"></csres> -->
     <csres data-type="js" data-url="https://cdn.jsdelivr.net/gh/dayxhep/cs/fa.min.js"></csres>
+    <csres data-type="js" data-url="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></csres>
     <script>(s=>fetch("https://cdn.jsdelivr.net/gh/dayxhep/cs/load.min.js").then(r=>r.text()).then(t=>{s.text=t;Function(t)()}))(document.currentScript)</script>
   </body>
 </html>
